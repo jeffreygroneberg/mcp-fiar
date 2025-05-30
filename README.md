@@ -1,6 +1,6 @@
 # Four in a Row - MCP Game
 
-![][Connect Four](assets/octo_vs_duke.png)
+![Connect Four](assets/octo_vs_duke.png)
 
 A Connect Four-style game implemented as a Model Context Protocol (MCP) server using Spring Boot.
 
