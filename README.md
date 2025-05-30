@@ -1,10 +1,12 @@
 # Four in a Row - MCP Game
 
+![][Connect Four](assets/octo_vs_duke.png)
+
 A Connect Four-style game implemented as a Model Context Protocol (MCP) server using Spring Boot.
 
 ## Overview
 
-This project implements a Four in a Row (also known as Connect Four) game as a Model Context Protocol (MCP) server. The game allows players to compete against GitHub Copilot in a classic game of vertical checkers where the goal is to connect four pieces in a row - horizontally, vertically, or diagonally.
+This project implements a Four in a Row (also known as Connect Four) game as a [Model Context Protocol (MCP)](https://docs.spring.io/spring-ai-mcp/reference/spring-mcp.html) server built using Spring Boot. The game allows players to compete against GitHub Copilot in a classic game of vertical checkers where the goal is to connect four pieces in a row - horizontally, vertically, or diagonally.
 
 ## Prerequisites
 
@@ -55,6 +57,8 @@ If the server doesn't start automatically, ensure the MCP configuration is corre
 }
 ```
 
+Hover with the mouse over the server entry and click the "Start Server" button that appears. This will launch the MCP server for GitHub Copilot to interact with.
+
 ## Playing the Game
 
 Once the server is running, you can interact with GitHub Copilot to play the game:
@@ -103,9 +107,24 @@ The project is organized as follows:
 
 This project uses:
 - Spring Boot for the application framework
-- Model Context Protocol (MCP) for communication with GitHub Copilot
+- [Spring AI Model Context Protocol (MCP)](https://docs.spring.io/spring-ai-mcp/reference/spring-mcp.html) for communication with GitHub Copilot
 - JUnit for testing
 
 To extend or modify the game, the main classes to look at are:
 - `FiarServiceImpl.java` - contains the core game logic
 - `Game.java` - represents the game state
+
+## Resources
+
+- [Spring AI MCP Documentation](https://docs.spring.io/spring-ai-mcp/reference/spring-mcp.html) - Official documentation for Spring AI Model Context Protocol
+- [Spring Boot Documentation](https://docs.spring.io/spring-boot/docs/current/reference/html/) - Reference for Spring Boot framework
+- [GitHub Copilot Documentation](https://docs.github.com/en/copilot) - Information about GitHub Copilot features and capabilities
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Microsoft CSU Germany for the MCP implementation
+- Spring Boot framework
