@@ -1,6 +1,6 @@
 {
   "servers": {
-    "spring-ai-mcp-weather": {
+    "fiar-game-mcp-weather": {
       "command": "java",
       "args": [
         "-Dspring.ai.mcp.server.stdio=true",
